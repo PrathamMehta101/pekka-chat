@@ -1,0 +1,54 @@
+# -------------------
+# Node (backend & frontend)
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# -------------------
+# Build outputs
+# -------------------
+dist/
+build/
+*.log
+
+# -------------------
+# Environment variables
+# -------------------
+.env
+.env.*.local
+.env.local
+
+# -------------------
+# OS-specific
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# Editor-specific
+# -------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# -------------------
+# React (frontend)
+# -------------------
+client/build/
+client/node_modules/
+
+# -------------------
+# Express (backend)
+# -------------------
+server/node_modules/
+server/dist/
+server/logs/
